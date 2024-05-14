@@ -2,6 +2,7 @@ body {
   background-color: rgb(225, 230, 243);
   font-family: Arial, Helvetica, sans-serif;
 }
+
 a {
   color: rgb(148, 133, 231);
 }
@@ -61,6 +62,9 @@ form {
   font-size: 16px;
   line-height: 2;
   padding: 20px;
+}
+.fun-fact strong {
+  color: rgb(148, 133, 231);
 }
 
 footer {
