@@ -35,7 +35,7 @@ form {
 .instructions {
   border: 1px solid rgba(62, 60, 73, 0.5);
   border-radius: 50px;
-  color: whitesmoke;
+  color: rgb(66, 64, 64, 0.8);
   font-size: 16px;
   line-height: 20px;
   padding: 16px;
