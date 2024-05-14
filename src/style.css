@@ -1,1 +1,70 @@
+body {
+  background-color: rgb(225, 230, 243);
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: rgb(148, 133, 231);
+}
 
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 1.8;
+  color: rgb(127, 70, 202);
+  text-align: center;
+}
+
+form {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.5);
+  display: flex;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  border: 1px solid rgba(62, 60, 73, 0.5);
+  border-radius: 50px;
+  color: whitesmoke;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 16px;
+  width: 80%;
+}
+
+.submit-button {
+  background: rgb(148, 133, 231);
+  border: none;
+  border-radius: 50px;
+  color: whitesmoke;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 14px 24px;
+  width: 150px;
+}
+
+.fun-fact {
+  background-color: whitesmoke;
+  border-left: 3px solid rgb(148, 133, 231);
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.5);
+  font-size: 16px;
+  line-height: 2;
+  padding: 20px;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 30px;
+  text-align: center;
+}

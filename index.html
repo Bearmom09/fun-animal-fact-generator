@@ -8,35 +8,41 @@
   </head>
 
   <body>
-    <header>
-      <h1>Fun facts about animals</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter an animal you would like a fun fact about.."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>The fact will be placed here</div>
-    </main>
-    <footer>
-      This generator is coded by
-      <a href="https://github.com/Bearmom09" target="_blank">Anita Hansen</a>
-      and is
-      <a
-        href="https://github.com/Bearmom09/fun-animal-fact-generator"
-        target="_blank"
-      >
-        open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://funanimalfacts.netlify.app" target="_blank">Netlify</a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Fun facts about animals</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter an animal you would like a fun fact about.."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" value="Submit" />
+        </form>
+        <div class="fun-fact">
+          The fact will be placed here, and then,and then and then and then and
+          then and then and then and then and thenand then and then and then and then
+        </div>
+      </main>
+      <footer>
+        This generator is coded by
+        <a href="https://github.com/Bearmom09" target="_blank">Anita Hansen</a>
+        and is
+        <a
+          href="https://github.com/Bearmom09/fun-animal-fact-generator"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://funanimalfacts.netlify.app" target="_blank">Netlify</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
