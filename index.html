@@ -15,19 +15,23 @@
         <h1>Fun facts about animals</h1>
       </header>
       <main>
-        <form id="fact-generator">
-          <input
-            type="text"
-            placeholder="Enter an animal you would like a fun fact about.."
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" value="Submit" />
-        </form>
-        <div class="fun-fact" id="fun-fact"></div>
+        <div class="form-container">
+          <form id="fact-generator">
+            <input
+              type="text"
+              placeholder="Enter an animal you would like a fun fact about.."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" value="Submit" />
+          </form>
+          <div class="hint">i.e: Tiger, Orangutan, Bald eagle</div>
+        </div>
+
+        <div class="fun-fact hidden" id="fun-fact"></div>
       </main>
       <footer>
         This generator is coded by

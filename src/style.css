@@ -24,13 +24,23 @@ h1 {
   text-align: center;
 }
 
-form {
+.form-container {
   background-color: whitesmoke;
   border-radius: 10px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.5);
-  display: flex;
   padding: 30px;
   margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: 0.6;
+  padding-top: 5px;
 }
 
 .instructions {
@@ -63,6 +73,11 @@ form {
   line-height: 2;
   padding: 20px;
 }
+
+.hidden {
+    display: none;
+}
+
 .fun-fact strong {
   color: rgb(148, 133, 231);
 }
